@@ -1,0 +1,22 @@
+body{
+    background-color: #191d7b;
+    width: 512px;
+    }
+ h1{
+    font-family: "Sigmar", sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: rgb(255, 255, 255);
+
+}
+
