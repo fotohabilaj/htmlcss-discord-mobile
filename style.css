@@ -4,19 +4,37 @@ body{
     }
  h1{
     font-family: "Sigmar", sans-serif;
-    text-align: center;
+    
     padding-top: 60px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 50px;
+    padding-left: 20px;
     color: rgb(255, 255, 255);
 }
 
 p{
     font-family: "DM Sans", sans-serif;
-    text-align: center;
-    padding-right: 80px;
-    padding-left: 80px;
+    
+    padding-right: 50px;
+    padding-left: 20px;
     color: rgb(255, 255, 255);
 
 }
+.scheda{
+    position: relative;
+    border-radius: 2rem;
+    background-color: #5d64d1;
+    margin: 3rem;
+    padding-bottom: 2.5rem;
+    align-items: center;
+} 
 
+.imgcard{
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 384px;
+}
+.vidcard{
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 384px;
+}
