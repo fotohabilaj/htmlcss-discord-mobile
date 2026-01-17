@@ -1,40 +1,82 @@
-body{
+body {
     background-color: #191d7b;
-    width: 512px;
-    }
- h1{
+    max-width: 512px;
+}
+
+img {
+    max-width: 512px;
+}
+
+h1 {
     font-family: "Sigmar", sans-serif;
-    
-    padding-top: 60px;
-    padding-right: 50px;
-    padding-left: 20px;
     color: rgb(255, 255, 255);
 }
 
-p{
+p {
     font-family: "DM Sans", sans-serif;
-    
     padding-right: 50px;
     padding-left: 20px;
     color: rgb(255, 255, 255);
 
 }
-.scheda{
+
+.scheda {
     position: relative;
     border-radius: 2rem;
     background-color: #5d64d1;
     margin: 3rem;
-    padding-bottom: 2.5rem;
-    align-items: center;
-} 
-
-.imgcard{
-    margin: 1rem;
-    border-radius: 2rem;
-    width: 384px;
+    padding-bottom: 2rem;
 }
-.vidcard{
-    margin: 1rem;
+
+.titolino {
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 2.5rem;
+}
+
+.imgcard {
+    margin: 2rem;
     border-radius: 2rem;
-    width: 384px;
+    width: 354px;
+}
+
+.vidcard {
+    margin: 2rem;
+    border-radius: 2rem;
+    width: 354px;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+#b1 {
+    border-radius: 0.75rem;
+    min-height: 3rem;
+    min-width: 21rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#b2 {
+    border-radius: 0.75rem;
+    min-height: 3rem;
+    min-width: 21rem;
+    font-weight: 600;
+    background-color: #5865f2;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#titolo {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#paragrafo {
+    padding-left: 85px;
+    padding-right: 85px;
 }
